@@ -1,0 +1,111 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "autoname": "hash",
+ "creation": "2024-11-01 17:43:29.641029",
+ "doctype": "DocType",
+ "engine": "InnoDB",
+ "field_order": [
+  "product_code",
+  "odoo_product_id",
+  "product_category",
+  "product_name",
+  "photo",
+  "price",
+  "internal_reference",
+  "product_type",
+  "unit_of_measure",
+  "product_description",
+  "odoo_vendor_id"
+ ],
+ "fields": [
+  {
+   "fieldname": "product_code",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "in_standard_filter": 1,
+   "label": "Product Code"
+  },
+  {
+   "fieldname": "product_category",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "Product Category",
+   "options": "Product Category"
+  },
+  {
+   "fieldname": "product_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Product Name"
+  },
+  {
+   "fieldname": "photo",
+   "fieldtype": "Attach Image",
+   "label": "Photo"
+  },
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "Price"
+  },
+  {
+   "fieldname": "odoo_product_id",
+   "fieldtype": "Int",
+   "label": "Odoo Product ID"
+  },
+  {
+   "fieldname": "internal_reference",
+   "fieldtype": "Data",
+   "label": "Internal Reference"
+  },
+  {
+   "fieldname": "product_type",
+   "fieldtype": "Link",
+   "label": "Product Type",
+   "options": "Product Type"
+  },
+  {
+   "fieldname": "unit_of_measure",
+   "fieldtype": "Data",
+   "label": "Unit of Measure"
+  },
+  {
+   "fieldname": "product_description",
+   "fieldtype": "Text",
+   "label": "Product Description"
+  },
+  {
+   "fieldname": "odoo_vendor_id",
+   "fieldtype": "Data",
+   "label": "Odoo Vendor ID"
+  }
+ ],
+ "image_field": "photo",
+ "index_web_pages_for_search": 1,
+ "links": [],
+ "modified": "2024-11-04 10:51:20.902296",
+ "modified_by": "Administrator",
+ "module": "Homeall Vendor Portal",
+ "name": "Products",
+ "naming_rule": "Random",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": []
+}
